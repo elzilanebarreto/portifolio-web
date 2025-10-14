@@ -1,4 +1,4 @@
-<!-- # Projeto Portfólio Pessoal
+# Projeto Portfólio Pessoal
 
 <div align="center"> 
 	<img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" alt="HTML Badge" /> 
@@ -47,4 +47,4 @@ Este site está disponível publicamente através do **GitHub Pages**. Você pod
 
 ## Contribuindo
 
-Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**. -->
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.
