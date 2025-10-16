@@ -206,3 +206,68 @@ form span {
 .article_mapa iframe {
   align-items: center;
 }
+
+/* ------------ Página Sobre -------------- */
+.main_sobre {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#sobre_mim {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+#sobre_mim h2 {
+  text-align: center;
+}
+
+#sobre_mim article {
+  padding: 10px;
+}
+
+#sobre_mim p {
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+#filmes {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+#filmes h2 {
+  text-align: center;
+}
+
+#box_filmes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filme_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: .5rem;
+  width: 300px;
+}
+
+.filme_item img {
+  object-fit: cover;
+  width: auto;
+  height: 50%;
+}
+
+.filme_item h4{
+  text-align: center;
+}
+
+.filme_item p {
+  text-align: justify;
+}
