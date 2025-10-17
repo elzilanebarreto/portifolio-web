@@ -253,7 +253,7 @@ form span {
 #filmes {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 1rem;
 }
 
 #filmes h2 {
@@ -268,8 +268,6 @@ form span {
 .filme_item{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: wrap;
   gap: .5rem;
   width: 300px;
 }
@@ -327,4 +325,28 @@ form span {
     height: 1.5rem;
   }
 
+  #sobre_mim p{
+    font-size: .75rem;
+  }
+}
+
+@media(max-width: 1080px){
+  #box_filmes{
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .filme_item {
+    width: 75%;
+    /* margin-bottom: 1rem; */
+  }
+
+  .filme_item img {
+    width: auto;
+  }
+
+  h4{
+    font-size: .8rem;
+  }
 }
