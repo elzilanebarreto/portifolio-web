@@ -297,4 +297,34 @@ form span {
   .main_contato{
     grid-template-columns: 1fr;
   }
+
+  header{
+    gap: 1rem;
+  }
+
+  nav a{
+    font-size: .9rem;
+  }
+
+  h1{
+    font-size: 1.5rem;
+  }
+
+  h2{
+    font-size: .9rem;
+  }
+
+  h3{
+    font-size: .8rem;
+  }
+
+  p{
+    font-size: .75rem;
+  }
+
+  footer img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
 }
