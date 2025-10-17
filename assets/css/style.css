@@ -87,11 +87,21 @@ nav a:hover {
 
 #about p {
   flex: 1;
+  text-align: justify;
 }
 
 #video figure {
+  /* display: flex;
+  justify-content: center; */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.framVideo{
+  width: 60vw;
+  aspect-ratio: 16/9; 
+  border-radius: .75rem;
 }
 
 /* ---------Rodapé--------- */
@@ -127,12 +137,12 @@ footer img {
 footer img {
   filter: brightness(0)
           saturate(100%)
-          invert(100%)
+          invert(67%)
           sepia(10%)
-          saturate(3577%)
-          hue-rotate(160deg)
-          brightness(95%)
-          contrast(91%);
+          saturate(2021%)
+          hue-rotate(175deg)
+          brightness(89%)
+          contrast(98%);
 }
 
 
@@ -207,6 +217,12 @@ form span {
   align-items: center;
 }
 
+.framMapa{
+  width: 45vw;
+  aspect-ratio: 16/9;
+  border-radius: .75rem;
+}
+
 /* ------------ Página Sobre -------------- */
 .main_sobre {
   margin: 2rem auto;
@@ -270,4 +286,15 @@ form span {
 
 .filme_item p {
   text-align: justify;
+}
+
+/*------- Media Queries ------------*/
+@media (max-width: 600px){
+  #about article {
+    flex-direction: column;
+  }
+
+  .main_contato{
+    grid-template-columns: 1fr;
+  }
 }
